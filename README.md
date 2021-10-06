@@ -22,15 +22,16 @@ Here are some ideas to get you started:
 ```javascript
 const geza = {
   pronouns: "HE" | "HIM",
-  code: [Java Spring(<3), React(<3), SQL, HTML, CSS, Python, Git, Bootstrap, Bash],
-  tools: [IntelliJ IDEA, VS Code, Pycharm, Postman]
+  code: ["Java Spring(<3)", "React(<3)", "SQL", "HTML", "CSS", "Python", "Git", "Bootstrap"],
+  tools: ["IntelliJ IDEA", "VS Code", "Pycharm", "Postman"],
   hobbies: ["Running", "Logic Games", "Photography"],
   currentStudies: {
                         company: "CodeCool",
                         location: "Miskolc",
                         position: "Full-Stack Developer student"
                       },
- motto: "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live."
+ motto: "Always code as if the guy who ends up maintaining your code " +
+        "will be a violent psychopath who knows where you live."
 }
 ```
 ### My projects
